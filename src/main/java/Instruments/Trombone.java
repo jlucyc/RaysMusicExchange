@@ -1,4 +1,4 @@
 package Instruments;
 
-public class Trumbone {
+public class Trombone {
 }

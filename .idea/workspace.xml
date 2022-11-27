@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4d36ea-e898-485d-8ff0-fe25b2d2b8b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavoiurs/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behavoiurs/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumbone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Woodwind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/WoodwindType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShopItems/Drumstick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShopItems/GuitarString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShopItems/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShopItems/SheetMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WoodwindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behavoiurs/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behavoiurs/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trumbone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trombone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Woodwind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Woodwind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WoodwindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WoodwindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +49,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.WoodwindTest.canGetReedType">
-    <configuration name="GuitarTest.canCheckIfGuitarHasPlugIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrumpetTest.canGetTrumpetSound">
+    <configuration name="TrumpetTest.canGetNumOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="METHOD_NAME" value="canCheckIfGuitarHasPlugIn" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="canGetNumOfValves" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.canGetTrumpetSound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
+      <option name="METHOD_NAME" value="canGetTrumpetSound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,23 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoodwindTest.canGetWoodwindType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WoodwindTest" />
-      <option name="METHOD_NAME" value="canGetWoodwindType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrumpetTest.canGetTrumpetSound" />
+        <item itemvalue="JUnit.TrumpetTest.canGetNumOfValves" />
         <item itemvalue="JUnit.WoodwindTest.canGetReedType" />
         <item itemvalue="JUnit.WoodwindTest.canGetSellPrice" />
         <item itemvalue="JUnit.WoodwindTest.canGetBuyPrice" />
-        <item itemvalue="JUnit.WoodwindTest.canGetWoodwindType" />
-        <item itemvalue="JUnit.GuitarTest.canCheckIfGuitarHasPlugIn" />
       </list>
     </recent_temporary>
   </component>

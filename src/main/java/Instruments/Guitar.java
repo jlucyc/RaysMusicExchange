@@ -1,10 +1,12 @@
 package Instruments;
 
-public class Guitar {
+public class Guitar extends Instrument {
 
     private GuitarType guitarType;
 
-    public Guitar(GuitarType guitarType){
+
+    public Guitar(GuitarType guitarType, String type){
+        super(type);
         this.guitarType = guitarType;
     }
 
@@ -22,6 +24,11 @@ public class Guitar {
 
     public boolean guitarIsPlugIn(){
         return guitarType.guitarIsPlugIn();
+    }
+
+    @Override
+    public String play() {
+        return "Guitar Sound";
     }
 }
 

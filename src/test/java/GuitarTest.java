@@ -14,9 +14,9 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        acousticGuitar = new Guitar(GuitarType.ACOUSTIC);
-        electricGuitar = new Guitar(GuitarType.ELECTRIC);
-        bassGuitar = new Guitar(GuitarType.BASS);
+        acousticGuitar = new Guitar(GuitarType.ACOUSTIC, "Wood");
+        electricGuitar = new Guitar(GuitarType.ELECTRIC, "Wood");
+        bassGuitar = new Guitar(GuitarType.BASS, "Wood");
     }
 
     @Test

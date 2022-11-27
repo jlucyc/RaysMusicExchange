@@ -1,10 +1,11 @@
 package Instruments;
 
-public class Woodwind {
+public class Woodwind extends Instrument {
 
     private WoodwindType woodwindType;
 
-    public Woodwind(WoodwindType woodwindType){
+    public Woodwind(WoodwindType woodwindType, String type){
+        super(type);
         this.woodwindType = woodwindType;
     }
 
@@ -22,5 +23,10 @@ public class Woodwind {
 
     public String getReedType(){
         return woodwindType.getReedType();
+    }
+
+
+    public String play() {
+        return "Woodwind sound";
     }
 }

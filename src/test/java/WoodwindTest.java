@@ -13,9 +13,9 @@ public class WoodwindTest {
 
     @Before
     public void before(){
-        saxophone = new Woodwind(WoodwindType.SAXOPHONE);
-        clarinet = new Woodwind(WoodwindType.CLARINET);
-        oboe = new Woodwind(WoodwindType.OBOE);
+        saxophone = new Woodwind(WoodwindType.SAXOPHONE, "Woodwind");
+        clarinet = new Woodwind(WoodwindType.CLARINET, "Woodwind");
+        oboe = new Woodwind(WoodwindType.OBOE, "Woodwind");
     }
 
     @Test
@@ -45,6 +45,8 @@ public class WoodwindTest {
         assertEquals("Single", clarinet.getReedType());
         assertEquals("Double", oboe.getReedType());
     }
+
+
 
 
 }
