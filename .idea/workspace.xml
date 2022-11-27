@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4d36ea-e898-485d-8ff0-fe25b2d2b8b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TromboneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behavoiurs/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behavoiurs/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behavoiurs/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behavoiurs/ISell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/GuitarType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trumbone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trombone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trombone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trombone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Woodwind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Woodwind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/WoodwindType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/WoodwindType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WoodwindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WoodwindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,52 +52,52 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TrumpetTest.canGetTrumpetSound">
-    <configuration name="TrumpetTest.canGetNumOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GuitarTest.canGetMarkUpOnGuitars">
+    <configuration name="GuitarTest.canGetMarkUpOnGuitar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canGetMarkUpOnGuitar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarTest.canGetMarkUpOnGuitars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canGetMarkUpOnGuitars" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TromboneTest.canGetMarkupOnTrombone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TromboneTest" />
+      <option name="METHOD_NAME" value="canGetMarkupOnTrombone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest.canGetMarkupOnTrumpet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canGetNumOfValves" />
+      <option name="METHOD_NAME" value="canGetMarkupOnTrumpet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest.canGetTrumpetSound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="METHOD_NAME" value="canGetTrumpetSound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoodwindTest.canGetBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WoodwindTest.canGetMarkupOnWoodwindTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WoodwindTest" />
-      <option name="METHOD_NAME" value="canGetBuyPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoodwindTest.canGetReedType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WoodwindTest" />
-      <option name="METHOD_NAME" value="canGetReedType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WoodwindTest.canGetSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicExchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WoodwindTest" />
-      <option name="METHOD_NAME" value="canGetSellPrice" />
+      <option name="METHOD_NAME" value="canGetMarkupOnWoodwindTypes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrumpetTest.canGetTrumpetSound" />
-        <item itemvalue="JUnit.TrumpetTest.canGetNumOfValves" />
-        <item itemvalue="JUnit.WoodwindTest.canGetReedType" />
-        <item itemvalue="JUnit.WoodwindTest.canGetSellPrice" />
-        <item itemvalue="JUnit.WoodwindTest.canGetBuyPrice" />
+        <item itemvalue="JUnit.GuitarTest.canGetMarkUpOnGuitars" />
+        <item itemvalue="JUnit.WoodwindTest.canGetMarkupOnWoodwindTypes" />
+        <item itemvalue="JUnit.TrumpetTest.canGetMarkupOnTrumpet" />
+        <item itemvalue="JUnit.TromboneTest.canGetMarkupOnTrombone" />
+        <item itemvalue="JUnit.GuitarTest.canGetMarkUpOnGuitar" />
       </list>
     </recent_temporary>
   </component>

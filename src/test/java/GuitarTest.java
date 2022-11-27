@@ -14,9 +14,9 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        acousticGuitar = new Guitar(GuitarType.ACOUSTIC, "Wood");
-        electricGuitar = new Guitar(GuitarType.ELECTRIC, "Wood");
-        bassGuitar = new Guitar(GuitarType.BASS, "Wood");
+        acousticGuitar = new Guitar(GuitarType.ACOUSTIC, "Guitars", 200, 400);
+        electricGuitar = new Guitar(GuitarType.ELECTRIC, "Guitars", 300, 600);
+        bassGuitar = new Guitar(GuitarType.BASS,"Guitars", 350, 650);
     }
 
     @Test
@@ -28,24 +28,17 @@ public class GuitarTest {
 
 
     @Test
-    public void canGetBuyPrice(){
-        assertEquals(100, acousticGuitar.getGuitarBuyPrice());
-        assertEquals(200, electricGuitar.getGuitarBuyPrice());
-        assertEquals(250, bassGuitar.getGuitarBuyPrice());
-    }
-
-    @Test
-    public void canGetSellPrice(){
-        assertEquals(200, acousticGuitar.getGuitarSellPrice());
-        assertEquals(400, electricGuitar.getGuitarSellPrice());
-        assertEquals(450, bassGuitar.getGuitarSellPrice());
-    }
-
-    @Test
     public void canCheckIfGuitarHasPlugIn(){
         assertEquals(false, acousticGuitar.guitarIsPlugIn());
         assertEquals(true, electricGuitar.guitarIsPlugIn());
         assertEquals(true, bassGuitar.guitarIsPlugIn());
+    }
+
+    @Test
+    public void canGetMarkUpOnGuitars(){
+        assertEquals(200, acousticGuitar.calculateMarkup());
+        assertEquals(300, electricGuitar.calculateMarkup());
+        assertEquals(300, bassGuitar.calculateMarkup());
     }
 
 

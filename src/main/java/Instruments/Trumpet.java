@@ -5,8 +5,8 @@ public class Trumpet extends Instrument {
     private int valves;
 
 
-    public Trumpet(int valves, String type){
-        super(type);
+    public Trumpet(int valves, String type, int buyPrice, int sellPrice){
+        super(type, buyPrice, sellPrice);
         this.valves = valves;
     }
 
@@ -17,5 +17,10 @@ public class Trumpet extends Instrument {
 
     public String play(){
         return "Trumpet sound";
+    }
+
+    @Override
+    public int calculateMarkup() {
+        return sellPrice - buyPrice;
     }
 }

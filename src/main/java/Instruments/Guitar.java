@@ -5,8 +5,8 @@ public class Guitar extends Instrument {
     private GuitarType guitarType;
 
 
-    public Guitar(GuitarType guitarType, String type){
-        super(type);
+    public Guitar(GuitarType guitarType, String type, int buyPrice, int sellPrice){
+        super(type, buyPrice, sellPrice);
         this.guitarType = guitarType;
     }
 
@@ -14,13 +14,7 @@ public class Guitar extends Instrument {
         return guitarType;
     }
 
-    public int getGuitarBuyPrice(){
-        return guitarType.getGuitarBuyPrice();
-    }
 
-    public int getGuitarSellPrice(){
-        return guitarType.getGuitarSellPrice();
-    }
 
     public boolean guitarIsPlugIn(){
         return guitarType.guitarIsPlugIn();
@@ -29,6 +23,11 @@ public class Guitar extends Instrument {
     @Override
     public String play() {
         return "Guitar Sound";
+    }
+
+    @Override
+    public int calculateMarkup() {
+        return sellPrice - buyPrice;
     }
 }
 

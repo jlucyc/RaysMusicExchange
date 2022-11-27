@@ -13,9 +13,9 @@ public class WoodwindTest {
 
     @Before
     public void before(){
-        saxophone = new Woodwind(WoodwindType.SAXOPHONE, "Woodwind");
-        clarinet = new Woodwind(WoodwindType.CLARINET, "Woodwind");
-        oboe = new Woodwind(WoodwindType.OBOE, "Woodwind");
+        saxophone = new Woodwind(WoodwindType.SAXOPHONE, "Woodwind", 250, 500);
+        clarinet = new Woodwind(WoodwindType.CLARINET, "Woodwind", 200, 450);
+        oboe = new Woodwind(WoodwindType.OBOE, "Woodwind", 350, 600);
     }
 
     @Test
@@ -25,25 +25,24 @@ public class WoodwindTest {
         assertEquals(WoodwindType.OBOE, oboe.getWoodwindType());
     }
 
-    @Test
-    public void canGetBuyPrice(){
-        assertEquals(150, saxophone.getWoodwindBuyPrice());
-        assertEquals(150, clarinet.getWoodwindBuyPrice());
-        assertEquals(200, oboe.getWoodwindBuyPrice());
-    }
-
-    @Test
-    public void canGetSellPrice(){
-        assertEquals(300, saxophone.getWoodwindSellPrice());
-        assertEquals(350, clarinet.getWoodwindSellPrice());
-        assertEquals(250, oboe.getWoodwindSellPrice());
-    }
 
     @Test
     public void canGetReedType(){
         assertEquals("Single", saxophone.getReedType());
         assertEquals("Single", clarinet.getReedType());
         assertEquals("Double", oboe.getReedType());
+    }
+
+    @Test
+    public void canGetWoodwindSound(){
+        assertEquals("Woodwind sound", saxophone.play());
+    }
+
+    @Test
+    public void canGetMarkupOnWoodwindTypes(){
+        assertEquals(250, saxophone.calculateMarkup());
+        assertEquals(250, clarinet.calculateMarkup());
+        assertEquals(250, oboe.calculateMarkup());
     }
 
 

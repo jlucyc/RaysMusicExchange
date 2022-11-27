@@ -10,7 +10,7 @@ public class TrumpetTest {
 
     @Before
     public void before(){
-        trumpet = new Trumpet(3, "Brass");
+        trumpet = new Trumpet(3, "Brass", 120, 300);
 
     }
 
@@ -22,6 +22,11 @@ public class TrumpetTest {
     @Test
     public void canGetTrumpetSound(){
         assertEquals("Trumpet sound", trumpet.play());
+    }
+
+    @Test
+    public void canGetMarkupOnTrumpet(){
+        assertEquals(180, trumpet.calculateMarkup());
     }
 
 }

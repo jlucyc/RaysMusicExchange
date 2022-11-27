@@ -4,8 +4,8 @@ public class Woodwind extends Instrument {
 
     private WoodwindType woodwindType;
 
-    public Woodwind(WoodwindType woodwindType, String type){
-        super(type);
+    public Woodwind(WoodwindType woodwindType, String type, int buyPrice, int sellPrice){
+        super(type, buyPrice, sellPrice);
         this.woodwindType = woodwindType;
     }
 
@@ -13,13 +13,7 @@ public class Woodwind extends Instrument {
         return woodwindType;
     }
 
-    public int getWoodwindBuyPrice(){
-        return woodwindType.getBuyPrice();
-    }
 
-    public int getWoodwindSellPrice(){
-        return woodwindType.getSellPrice();
-    }
 
     public String getReedType(){
         return woodwindType.getReedType();
@@ -28,5 +22,10 @@ public class Woodwind extends Instrument {
 
     public String play() {
         return "Woodwind sound";
+    }
+
+    @Override
+    public int calculateMarkup() {
+        return sellPrice - buyPrice;
     }
 }
